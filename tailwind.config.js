@@ -6,16 +6,19 @@ module.exports = {
   theme: {
 
     colors: {
-      darkblue: "#355070",
-      darkpurple: "#6d597a",
-      lightred: "#b56576",
-      lightred2: "#e56b6f",
-      lightbrown: "#eaac8b"
+      dark: "#0c0d0d",
+      darkblue: "#001d3d",
+      lighterblue: "#003566",
+      yellow: "#ffc300",
+      lightyellow: "#ffd60a",
+      white: "#edf2f4",
+      gray: "#8d99ae"
     },
 
     fontFamily: {
-      'raleway': ['Raleway']
-    }
+      'roboto': ['Roboto Condensed'],
+      'robotolight': ['Roboto']
+    },
 
   },
   plugins: [],
