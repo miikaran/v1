@@ -12,7 +12,7 @@ export default function Navbar(){
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-15">
             <div>
                 <div className="flex items-center justify-between py-3 md:py-8 md:block">
-                    <a className="text-white block font-bold text-2xl" href="/">
+                    <a className="text-white block font-bold text-2xl border-t-4 border-b-4 border-yellow" href="/">
                         MR
                     </a>
                     <div className="md:hidden">
@@ -63,28 +63,28 @@ export default function Navbar(){
                     <ul className="items-center font-roboto justify-center text-lg gap-14 space-y-8 md:flex md:space-x-10 md:space-y-0">
 
                     <li>
-                    <a className="text-white" href="/">
+                    <a className="text-white link" href="/">
                         home
                     </a>
                     </li>
 
                     <li>
-                    <a className="text-white" href="#About">
+                    <a className="text-white link" href="#About">
                         about
                     </a>
                     </li>
 
                     <li>
-                    <a className="text-white" href="#Projects">
+                    <a className="text-white link" href="#Projects">
                         work
                     </a>
                     </li>    
 
                     <li>
-                    <a className="text-white" href="#Contact">
+                    <a className="text-white link" href="#Contact">
                         contact
                     </a>
-                    </li>   
+                    </li> 
 
                     <li>
                     <button className="text-dark text-3xl bg-lightyellow p-1 rounded-full">

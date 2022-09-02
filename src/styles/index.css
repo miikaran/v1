@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
 
 body {
   margin: 0;
@@ -14,14 +15,47 @@ body {
 .hero{
   background-image: url('../assets/wave\ \(2\).svg');
   background-size: cover;
-  background-position: -60vw 10vh;
+  background-position: -58.3vw 10vh;
   background-repeat: no-repeat;
 }
+
+
+.sidebar{
+  transform: rotate(90deg);
+  bottom: 0vh;
+  right: 0;
+  padding-bottom: 3.5vw;
+}
+
+.sidebarsocials{
+  transform: rotate(-90deg);
+}
+
+.link {
+  position: relative;
+}
+
+.link::before {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 3px;
+  bottom: -3px;
+  left: 0;
+  background-color: #e3ec63;
+  visibility: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.link:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
 
 @media (max-width: 1008px){
 
   .hero{
     background-image: none;
   }
-
 }

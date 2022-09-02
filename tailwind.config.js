@@ -17,7 +17,8 @@ module.exports = {
 
     fontFamily: {
       'roboto': ['Roboto Condensed'],
-      'robotolight': ['Roboto']
+      'robotolight': ['Roboto'],
+      'cool': ['Qwitcher Grypen']
     },
 
   },
