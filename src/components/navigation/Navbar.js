@@ -1,15 +1,18 @@
 import React from 'react';
 import { useState } from "react";
 import { HiOutlineLightBulb } from 'react-icons/hi'
-import { TbLanguage } from 'react-icons/tb'
+import { DiCode } from 'react-icons/di'
+import { GrContact } from 'react-icons/gr'
+import { AiOutlineDownload } from 'react-icons/ai'
+
 
 export default function Navbar(){
 
     const [navbar, setNavbar] = useState(false);
 
     return(
-        <nav className="bg-dark">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-15">
+        <nav className="bg-dark2 fixed w-full">
+        <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-14">
             <div>
                 <div className="flex items-center justify-between py-3 md:py-8 md:block">
                     <a className="text-white block font-bold text-2xl border-t-4 border-b-4 border-yellow" href="/">
@@ -60,29 +63,35 @@ export default function Navbar(){
                         navbar ? "block" : "hidden"
                     }`}
                 >
-                    <ul className="items-center font-roboto justify-center text-lg gap-14 space-y-8 md:flex md:space-x-10 md:space-y-0">
+                    <ul className="items-center font-roboto justify-center text-lg gap-10 space-y-6 md:flex md:space-x-14 md:space-y-0">
 
                     <li>
                     <a className="text-white link" href="/">
-                        home
+                        HOME
                     </a>
                     </li>
 
                     <li>
                     <a className="text-white link" href="#About">
-                        about
+                        ABOUT
                     </a>
                     </li>
 
                     <li>
-                    <a className="text-white link" href="#Projects">
-                        work
+                    <a className="link text-white" href="#Projects">
+                        WORK
                     </a>
                     </li>    
 
                     <li>
                     <a className="text-white link" href="#Contact">
-                        contact
+                        CONTACT
+                    </a>
+                    </li>
+                    
+                    <li>
+                    <a className="text-dark flex rounded-sm bg-white py-1 px-4" href="#Contact">
+                        RESUME <AiOutlineDownload className="mx-2 text-2xl" />
                     </a>
                     </li> 
 

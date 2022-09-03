@@ -10,15 +10,13 @@ body {
   margin: 0;
 }
 
-
-
-.hero{
-  background-image: url('../assets/wave\ \(2\).svg');
-  background-size: cover;
-  background-position: -58.3vw 10vh;
-  background-repeat: no-repeat;
+.homehero{
+  background-image: url('../assets/wave\ \(9\).svg');
 }
 
+.piki{
+  background-image: url('../assets/IMG_20220719_085416.jpg')
+}
 
 .sidebar{
   transform: rotate(90deg);
@@ -53,9 +51,52 @@ body {
 }
 
 
-@media (max-width: 1008px){
+@media (max-width: 1000px){
 
-  .hero{
+  .homehero{
     background-image: none;
+  }
+  .about{
+    background-image: none;
+  }
+}
+
+
+@media (max-width: 1000px){
+
+  .homehero{
+    background-image: none;
+  }
+  .about{
+    background-image: none;
+  }
+}
+
+@media (max-width: 640px){
+
+  .heroyellow{
+    font-size: 2.4rem;
+  }
+  .buttons{
+    display: block;
+    width: 60%;
+  }
+}
+
+@media (max-width: 450px){
+
+  .heroname{
+    font-size: 1.6rem;
+  }
+
+  .heroyellow{
+    font-size: 2rem;
+  }
+
+  .abouthr{
+    display: none;
+  }
+  .homehr{
+    display: none;
   }
 }
