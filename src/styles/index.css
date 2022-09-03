@@ -11,12 +11,10 @@ body {
 }
 
 .homehero{
-  background-image: url('../assets/wave\ \(9\).svg');
+  background-image: url('../assets/sssurf.svg');
+  background-size: cover;
 }
 
-.piki{
-  background-image: url('../assets/IMG_20220719_085416.jpg')
-}
 
 .sidebar{
   transform: rotate(90deg);
