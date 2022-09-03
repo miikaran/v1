@@ -12,10 +12,10 @@ export default function FullPage(){
         <div className="bg-dark2">
             <div className="font-roboto homehero flex justify-center">
                 <div className="py-5 mx-8 sm:py-24 sm:mx-22 md:mr-52">
-                    <div className="text-white text-4xl md:text-7xl xl:text-8xl">       
+                    <div className="text-white text-4xl md:text-5xl lg:text-6xl xl:text-8xl">       
                         <div className="leading-tight pt-32">
 
-                            <div className="md:bg-dark2 px-0 rounded-sm px-6 pb-14 lg:px-24">
+                            <div className="md:bg-dark2 rounded-sm pb-14 lg:px-24 herocontent">
                                 <span className="text-white text-2xl tracking-tighter sm:text-5xl heroname">MIIKA RANTALAIHO,</span><br />
                                 <span className="bg-lightyellow text-dark2 rounded-sm px-4 heroyellow">FRONTEND DEVELOPER<br /></span>
                                 <span className="bg-lightyellow text-dark2 rounded-sm px-4 heroyellow">BASED IN FINLAND.</span>
@@ -30,9 +30,9 @@ export default function FullPage(){
 
                                 <p className="text-lg mt-2 font-robotolight">Designing & Implementing web-based applications using modern technologies.</p>
 
-                                <div className="mt-7 text-lg sm:text-2xl space-y-4 sm:space-y-0 sm:space-x-4">
-                                    <a href="/" className="border-2 px-12 tracking-widest rounded-sm buttons py-2">WORK</a>
-                                    <a href="/" className="border-2 px-12 tracking-widest rounded-sm buttons py-2">CONTACT</a>
+                                <div className="mt-7 text-sm sm:text-2xl space-y-4 sm:space-y-0 sm:space-x-4">
+                                    <a href="/" className="border-2 px-12 tracking-widest rounded-sm py-2">WORK</a>
+                                    <a href="/" className="border-2 px-12 tracking-widest rounded-sm py-2">CONTACT</a>
                                 </div>
                             </div> 
 
@@ -44,11 +44,11 @@ export default function FullPage(){
             <div className="bg-dark about font-roboto">
                 <div className="flex justify-center mt-18 pb-24">
 
-                    <div className="mt-24 max-w-sm px-5 border-r-8 border-yellow">
+                    <div className="aboutimg mt-24 max-w-sm px-5 border-r-8 border-yellow">
                         <img className="mt-12" src="https://cdn-icons-png.flaticon.com/512/320/320368.png?w=360" />
                     </div>
                   
-                    <div className="mt-24 bg-dark2 py-4 px-14">
+                    <div className="mt-24 bg-dark2 py-4 px-14 max-w-3xl">
 
                         <span className="text-white flex border-white rounded-sm text-3xl sm:text-5xl px-5 sm:px-0">
                             
@@ -75,8 +75,6 @@ export default function FullPage(){
 
                     </div>
 
-                    <div className="mt-24 bg-dark2 py-10 px-14 border-t-2 border-b-2 border-white border-r-2">
-                    </div>
                 </div> 
 
             </div>                          
