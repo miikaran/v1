@@ -12,13 +12,13 @@ export default function Navbar(){
 
     return(
         <nav className="bg-dark2 fixed w-full">
-        <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-14">
+        <div className="justify-between px-4 mx-auto lg:max-w-8xl lg:items-center lg:flex lg:px-14">
             <div>
-                <div className="flex items-center justify-between py-3 md:py-8 md:block">
+                <div className="flex items-center justify-between py-3 lg:py-8 lg:block">
                     <a className="text-white block font-bold text-2xl border-t-4 border-b-4 border-yellow" href="/">
                         MR
                     </a>
-                    <div className="md:hidden">
+                    <div className="lg:hidden">
                         <button
                             className="p-2 text-gray rounded-md outline-none focus:border-gray-400 focus:border"
                             onClick={() => setNavbar(!navbar)}
@@ -59,11 +59,11 @@ export default function Navbar(){
             <div>
                 <div
 
-                    className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+                    className={`flex-1 justify-self-center pb-3 mt-8 lg:block lg:pb-0 lg:mt-0 ${
                         navbar ? "block" : "hidden"
                     }`}
                 >
-                    <ul className="items-center font-roboto justify-center text-lg gap-10 space-y-6 md:flex md:space-x-14 md:space-y-0">
+                    <ul className="items-center font-roboto justify-center text-lg gap-10 space-y-6 lg:flex lg:space-x-14 lg:space-y-0">
 
                     <li>
                     <a className="text-white link" href="/">
@@ -99,7 +99,7 @@ export default function Navbar(){
                     <button className="text-dark text-3xl bg-lightyellow p-1 rounded-full">
                         <HiOutlineLightBulb />
                     </button>
-                    </li> 
+                    </li>
 
                     </ul>
                 </div>

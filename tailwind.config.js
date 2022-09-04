@@ -13,13 +13,16 @@ module.exports = {
       yellow: "#ffc300",
       lightyellow: "#ffd60a",
       white: "#edf2f4",
-      gray: "#8d99ae"
+      gray: "#8d99ae",
+      sky: "#5eb9ff",
+      green: "#049112",
+      purple: "#b97ffa"
     },
 
     fontFamily: {
       'roboto': ['Roboto Condensed'],
       'robotolight': ['Roboto'],
-      'cool': ['Qwitcher Grypen']
+      'cool': ['Qwitcher Grypen'],
     },
 
   },
