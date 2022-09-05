@@ -16,7 +16,7 @@ export default function About(){
 
             <div className="flex justify-center pb-14">
 
-                <div className="aboutimg mt-56 max-w-md">
+                <div className="aboutimg mt-52 max-w-md">
                     <img className="rounded-full border-8 border-r-yellow border-l-white border-b-white border-t-yellow" src={Imgme} alt="Image of a boy" />
                 </div>
                         

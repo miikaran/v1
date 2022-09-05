@@ -14,7 +14,7 @@ export default function App(){
         <>
         <SideBar />
         <Navbar />
-        <Hero />   
+        <Hero />
         <About />
         <Work />
         <Contact />

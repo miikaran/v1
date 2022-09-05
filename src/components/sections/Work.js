@@ -28,18 +28,20 @@ export default function Work(){
                         <hr className="w-32 border-2 border-yellow mt-6 mx-5 rounded-full abouthr"></hr></span>        
                     </div> 
 
-                    <div className="block lg:flex mt-24 bg-dark">
+                    <div className="block lg:flex lg:mt-24">
 
-                        <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-0 border-l-8 border-b-8 border-t-8 border-yellow forbiddenmp4" src={forbiddenmp4} alt="Youtube Downloader Website" />           
+                        <div className="py-12 lg:border-r-8 border-r-gray">
+                            <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-l-8 border-b-8 border-t-8 border-gray border-opacity-30 halvatsivut" src={forbiddenmp4} alt="Youtube Downloader Website" />           
+                        </div>
                         
-                        <div className="px-0 sm:px-14 py-9 max-w-4xl border-r-8 border-t-8 border-l-8 border-b-8 border-dark border-l-gray">
+                        <div className="bg-dark opacity-90 px-0 sm:px-14 py-9 max-w-4xl border-r-8 border-t-8 border-l-8 border-b-8 border-dark border-l-gray">
                             <span className="text-4xl sm:text-5xl text-white mx-4">forbidden.<span className="text-yellow">MP4</span> 
                             <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
                             </span>
                             
                             <p className="mx-5 mt-4 sm:mt-0 font-robotolight text-md text-white sm:text-xl">
-                            Forbidden.MP4 is a tool which you can use to download videos, audios & shorts straight from youtube.
-                            It uses npm package called YTDL-core to upload the content to server and from there download it to the client.
+                            Forbidden.MP4 is a tool which you can use to download <b>videos</b>, <b>audios</b> & <b>shorts</b> from youtube.
+                            It uses npm package called <b>YTDL-core</b> to upload the content to server and from there download it to the client.
                             </p>
 
                             <br />
@@ -77,11 +79,11 @@ export default function Work(){
                         </div>
                     </div>
 
-                    <div className="block lg:flex bg-dark mt-12">
+                    <div className="block lg:flex mt-12">
 
-                        <div className="px-0 sm:px-14 py-9 max-w-4xl border-b-8 border-t-8 border-r-8 border-dark border-r-gray">
+                        <div className="bg-dark opacity-90 px-0 sm:px-14 py-9 max-w-4xl border-b-8 border-t-8 border-r-8 border-dark border-r-gray">
                             <span className="text-4xl sm:text-5xl text-white mx-4">
-                            Halvatsivut
+                            Halvatsivut.fi
                             <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
                             </span>
                             
@@ -117,7 +119,10 @@ export default function Work(){
                             </div>
 
                         </div>
-                        <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-0 border-r-8 border-b-8 border-t-8 border-yellow halvatsivut" src={halvatsivut} alt="Freelance website" />           
+
+                        <div className="py-12 lg:border-l-8 border-l-gray">
+                            <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-r-8 border-b-8 border-t-8 border-gray border-opacity-20 halvatsivut" src={halvatsivut} alt="Freelance website" />           
+                        </div>
                     </div> 
 
                 </div>  
