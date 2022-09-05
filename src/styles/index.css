@@ -5,8 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
 
 body {
   margin: 0;
@@ -63,7 +61,16 @@ body {
 
 
 
-@media (max-width: 1000px){
+@media (max-width: 1350px){
+
+  .bgtext{
+    display: none;
+  }
+ 
+}
+
+
+@media (max-width: 1050px){
 
   .homehero{
     background-image: none;
@@ -74,16 +81,14 @@ body {
   .aboutimg{
     display: none;
   }
-}
-
-
-@media (max-width: 1000px){
-
-  .homehero{
-    background-image: none;
+  .forbiddenmp4{
+    display: none;
   }
-  .about{
-    background-image: none;
+  .halvatsivut{
+    display: none;
+  }
+  .sidebar{
+    display: none;
   }
 }
 
@@ -114,5 +119,12 @@ body {
   }
   .homehr{
     display: none;
+  }
+}
+
+@media (max-width: 300px){
+
+  .herobuttons{
+    display: block;
   }
 }
