@@ -8,7 +8,7 @@ export default function About(){
 
     return(
 
-        <div className="bg-dark about font-roboto md:pt-10">
+        <div className="bg-dark about font-raleway md:pt-14">
 
             <div className="absolute text-gray opacity-10 tracking-widest mt-14 bgtext" style={{fontSize: '11rem', left: '35vw'}}>
                 ABOUT ME

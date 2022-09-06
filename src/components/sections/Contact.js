@@ -5,7 +5,7 @@ export default function Contact(){
 
     return(
 
-        <div className="bg-dark2 about font-roboto">
+        <div className="bg-dark2 about font-raleway">
 
             <div className="absolute text-gray opacity-10 tracking-widest mt-4 bgtext" style={{fontSize: '11rem', left: '29vw'}}>
                 CONTACT
@@ -26,7 +26,7 @@ export default function Contact(){
                     </p>
 
                     <div className="flex mx-4 sm:mx-0 sm:justify-center mt-10 text-white">
-                        <a href="mailto:rantalaihomiika@gmail.com" className="w-52 sm:w-72 flex text-sm sm:text-xl border-2 border-yellow px-4 sm:px-14 tracking-widest rounded-sm py-3 sm:py-4">
+                        <a href="mailto:rantalaihomiika@gmail.com" className="w-52 sm:w-72 flex text-sm sm:text-lg border-2 border-yellow px-4 sm:px-14 tracking-widest rounded-sm py-3 sm:py-4">
                             CONTACT VIA <AiOutlineMail className="mt-1 mx-2" />
                         </a>
                     </div>

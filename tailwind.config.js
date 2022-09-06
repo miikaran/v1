@@ -24,6 +24,7 @@ module.exports = {
       'roboto': ['Roboto Condensed'],
       'robotolight': ['Roboto'],
       'cool': ['Qwitcher Grypen'],
+      'raleway': ['Raleway']
     },
 
   },

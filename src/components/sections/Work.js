@@ -11,7 +11,7 @@ import { BiLinkExternal } from 'react-icons/bi'
 export default function Work(){
 
     return(
-        <div className="bg-dark2 font-roboto work">
+        <div className="bg-dark2 font-raleway work">
             <div className="flex justify-center pb-20">
 
                 <div className="absolute text-gray opacity-10 tracking-widest mt-10 bgtext" style={{fontSize: '11rem', left: '6vw'}}>
@@ -22,7 +22,7 @@ export default function Work(){
                 <div className="mt-32">
 
                     <div className="py-4">
-                        <span className="text-white flex border-white rounded-sm text-4xl px-4 sm:text-6xl px-5 sm:px-0 ">
+                        <span className="text-white flex border-white rounded-sm text-3xl px-4 sm:text-6xl px-5 sm:px-0 ">
                         <hr className="w-8 border-2 border-yellow mt-6 mx-2 rounded-full abouthr"></hr> 
                         MY LATEST WORK
                         <hr className="w-32 border-2 border-yellow mt-6 mx-5 rounded-full abouthr"></hr></span>        
@@ -41,7 +41,7 @@ export default function Work(){
                             
                             <p className="mx-5 mt-4 sm:mt-0 font-robotolight text-md text-white sm:text-xl">
                             Forbidden.MP4 is a tool which you can use to download <b>videos</b>, <b>audios</b> & <b>shorts</b> from youtube.
-                            It uses npm package called <b>YTDL-core</b> to upload the content to server and from there download it to the client.
+                            It uses npm package called <b>YTDL-core</b> to upload the content to server and from there to download it to the client.
                             </p>
 
                             <br />
