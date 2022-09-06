@@ -8,19 +8,19 @@ export default function About(){
 
     return(
 
-        <div className="bg-dark about font-roboto">
+        <div className="bg-dark about font-roboto md:pt-10">
 
-            <div className="absolute text-gray opacity-10 tracking-widest mt-4 bgtext" style={{fontSize: '11rem', left: '35vw'}}>
+            <div className="absolute text-gray opacity-10 tracking-widest mt-14 bgtext" style={{fontSize: '11rem', left: '35vw'}}>
                 ABOUT ME
             </div>
 
             <div className="flex justify-center pb-14">
 
-                <div className="aboutimg mt-52 max-w-md">
+                <div className="aboutimg mt-64 max-w-md">
                     <img className="rounded-full border-8 border-r-yellow border-l-white border-b-white border-t-yellow" src={Imgme} alt="Image of a boy" />
                 </div>
                         
-                <div className="mt-14 py-8 px-2 sm:px-14">
+                <div className="sm:mt-24 py-8 px-2 sm:px-14">
 
                     <div className="py-8 max-w-3xl">
                         <span className="text-white flex border-white rounded-sm text-3xl sm:text-6xl px-5 sm:px-0 ">
@@ -30,7 +30,7 @@ export default function About(){
                         <hr className="w-40 border-2 border-yellow mt-6 mx-5 rounded-full abouthr"></hr></span> 
 
                         <p className="text-white font-robotolight py-2 mt-10 px-4 sm:px-0 text-md md:text-xl">
-                        Hi!👋 I'm your average frontend developer who specializes in
+                        Hi!👋 I'm your + average frontend developer who specializes in
                         the design and implementation of web-based
                         applications with the help of modern technologies.
                         <br /><br />I'm currently studying Information & communication technologies at <a className="text-yellow underline">Raseko </a>

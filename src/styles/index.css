@@ -11,8 +11,9 @@ body {
 }
 
 .homehero{
-  background-image: url('../assets/sssurf (3).svg');
+  background-image: url('../assets/wave\ \(13\).svg');
   background-size: cover;
+  background-position: 29vw 200vh;
 }
 
 .work{
@@ -94,25 +95,19 @@ body {
 
 @media (max-width: 640px){
 
-  .heroyellow{
-    font-size: 2.4rem;
-  }
   .buttons{
     display: block;
     width: 80%;
   }
+  .herocontent{
+    margin-left: 5vw;
+  }
 }
 
-@media (max-width: 500px){
+@media (max-width: 520px){
 
   .heroname{
     font-size: 1.6rem;
-  }
-  .heroyellow{
-    font-size: 2rem;
-  }
-  .herocontent{
-    margin-left: 3vw;
   }
   .abouthr{
     display: none;
@@ -122,9 +117,26 @@ body {
   }
 }
 
-@media (max-width: 300px){
+@media (max-width: 370px){
+
+  .heroyellow{
+    font-size: 1.80rem;
+  }
+
+  .herocontent{
+    margin-left: 5vw;
+  }
 
   .herobuttons{
     display: block;
   }
 }
+
+@media (max-width: 300px){
+
+  .heroyellow{
+    font-size: 1.4rem;
+  }
+
+}
+
