@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from "react";
 import { AiOutlineDownload } from 'react-icons/ai'
+import { Link } from 'react-scroll'
 
 
 export default function Navbar(){
@@ -8,7 +9,7 @@ export default function Navbar(){
     const [navbar, setNavbar] = useState(false);
 
     return(
-        <nav className="fixed w-full">
+        <nav className="fixed w-full ">
         <div className="justify-between px-4 mx-auto lg:max-w-8xl lg:items-center lg:flex lg:px-14">
             <div>
                 <div className="flex items-center justify-between py-3 lg:py-8 lg:block">
@@ -60,28 +61,56 @@ export default function Navbar(){
                         navbar ? "block" : "hidden"
                     }`}
                 >
-                    <ul className="items-center text-white font-raleway justify-center text-2xl gap-10 space-y-6 lg:flex lg:space-x-14 lg:space-y-0">
-
+                    <ul className="items-center text-white font-raleway justify-center text-2xl gap-10 space-y-6 lg:flex lg:space-x-14 lg:space-y-0">                           
+                    
                     <li>
-                    <a className="link" href="#About">
-                        ABOUT
-                    </a>
+                    <Link
+                        href="about"
+                        className="link cursor-pointer"
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={700}
+                    >
+                    ABOUT
+                    </Link>
+                    
                     </li>
 
                     <li>
-                    <a className="link" href="#Projects">
-                        WORK
-                    </a>
+                    <Link
+                        href="work"
+                        className="link cursor-pointer"
+                        activeClass="active"
+                        to="work"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={700}
+                    >
+                    WORK
+                    </Link>
                     </li>    
 
                     <li>
-                    <a className="link" href="#Contact">
-                        CONTACT
-                    </a>
+                    <Link
+                        href="contact"
+                        className="link cursor-pointer"
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-100}
+                        duration={700}
+                    >
+                    CONTACT
+                    </Link>
                     </li>
                     
                     <li>
-                    <button className="text-dark text-xl flex rounded-sm bg-white py-1 px-4" href="#Contact">
+                    <button className="text-dark text-xl flex rounded-sm bg-white py-1 px-4  hover:bg-opacity-80" href="#Contact">
                         RESUME <AiOutlineDownload className="mx-2 text-2xl" />
                     </button>
                     </li>         

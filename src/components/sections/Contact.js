@@ -5,7 +5,7 @@ export default function Contact(){
 
     return(
 
-        <div className="bg-dark2 about font-raleway">
+        <div className="bg-dark2 contact font-raleway">
 
             <div className="absolute text-gray opacity-10 tracking-widest mt-4 bgtext" style={{fontSize: '11rem', left: '29vw'}}>
                 CONTACT

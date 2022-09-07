@@ -1,6 +1,6 @@
 import React from 'react';
 import gsap from 'gsap'
-import { useRef, useEffect } from 'react'
+import { useEffect } from 'react'
 
 export default function Hero(){
 
@@ -13,7 +13,7 @@ export default function Hero(){
 
     return(
 
-        <div className="bg-dark2 content xl:bg-dark2">
+        <div className="bg-dark2 xl:bg-dark2">
             <div className="font-raleway homehero flex justify-start">
                 <div className="py-5 sm:px-0 sm:py-20 sm:ml-20 md:ml-20 lg:ml-9"> 
                     <div className="text-white text-4xl sm:text-6xl md:text-7xl xl:text-8xl">       

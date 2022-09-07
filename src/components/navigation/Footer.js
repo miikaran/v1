@@ -16,9 +16,8 @@ export default function Footer(){
                 </p> 
 
                 <div className="flex space-x-3 mx-4">
-                    <a className="text-xl text-white"><AiFillGithub /></a>
-                    <a className="text-xl text-white"><FaLinkedinIn /></a>
-                    <a className="text-xl text-white"><BsTwitter /></a>
+                    <a href="https://github.com/miikaran" className="text-xl text-white hover:text-gray"><AiFillGithub /></a>
+                    <a href="/" className="text-xl text-white hover:text-gray"><FaLinkedinIn /></a>
                 </div>
 
             </div>
