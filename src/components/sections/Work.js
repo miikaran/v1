@@ -34,7 +34,7 @@ export default function Work(){
                             <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-l-8 border-b-8 border-t-8 border-gray border-opacity-30 halvatsivut" src={forbiddenmp4} alt="Youtube Downloader Website" />           
                         </div>
                         
-                        <div className="bg-dark opacity-90 px-0 sm:px-14 py-9 max-w-4xl border-r-8 border-t-8 border-l-8 border-b-8 border-dark border-l-gray">
+                        <div className="bg-dark px-0 sm:px-14 py-9 max-w-4xl border-r-8 border-t-8 border-l-8 border-b-8 border-dark border-l-gray">
                             <span className="text-4xl sm:text-5xl text-white mx-4">forbidden.<span className="text-yellow">MP4</span> 
                             <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
                             </span>
@@ -81,7 +81,7 @@ export default function Work(){
 
                     <div className="block lg:flex mt-12">
 
-                        <div className="bg-dark opacity-90 px-0 sm:px-14 py-9 max-w-4xl border-b-8 border-t-8 border-r-8 border-dark border-r-gray">
+                        <div className="bg-dark px-0 sm:px-14 py-9 max-w-4xl border-b-8 border-t-8 border-r-8 border-dark border-r-gray">
                             <span className="text-4xl sm:text-5xl text-white mx-4">
                             Halvatsivut.fi
                             <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
