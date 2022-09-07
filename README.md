@@ -44,11 +44,10 @@
  ```
 
 <div align=center>
-<img src="https://user-images.githubusercontent.com/88707539/188804886-679070cb-ece2-4e28-aeff-f071981c944c.png" />
+<img src="https://user-images.githubusercontent.com/88707539/188806906-efa66d36-edd1-4742-bb04-90de59aa7bf6.png" />
 </div>
 
- 
- 
+
  
 
 
