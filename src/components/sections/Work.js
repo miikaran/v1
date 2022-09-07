@@ -40,7 +40,7 @@ export default function Work(){
                             </span>
                             
                             <p className="mx-5 mt-4 sm:mt-0 font-robotolight text-md text-white sm:text-xl">
-                            Forbidden.MP4 is a tool which you can use to download <b>videos</b>, <b>audios</b> & <b>shorts</b> from youtube.
+                            Forbidden.MP4 is a website which you can use to download <b>videos</b>, <b>audios</b> & <b>shorts</b> from youtube.
                             It uses npm package called <b>YTDL-core</b> to upload the content to server and from there to download it to the client.
                             </p>
 
@@ -72,8 +72,8 @@ export default function Work(){
                             <br />
 
                             <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
-                                <a href="/" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
-                                <a href="/" className="bg-lightyellow px-8 text-xl py-3 flex">SOURCE CODE <AiFillGithub className="mx-2 text-2xl" /></a>
+                                <a href="https://forbidden-mp4-downloader.herokuapp.com/" target="_blank" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
+                                <a href="https://github.com/miikaran/youtube-videoaudio-downloader" target="_blank" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
                             </div>
 
                         </div>
@@ -114,8 +114,8 @@ export default function Work(){
                             <br />
 
                             <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
-                                <a className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
-                                <a className="bg-lightyellow px-8 text-xl py-3 flex">SOURCE CODE <AiFillGithub className="mx-2 text-2xl" /></a>
+                                <a href="https://halvatsivut.fi/" target="_blank" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
+                                <a href="https://github.com/miikaran/freelance-website-template" target="_blank" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
                             </div>
 
                         </div>

@@ -10,8 +10,8 @@ export default function SideBar(){
         <div className="text-yellow fixed sidebar mt-60">
             <div className="sidebarsocials mx-14 text-white border-yellow border-l-2 px-4">
                 <a href="mailto:rantalaihomiika@gmail.com"><p className="text-2xl py-3 hover:text-gray"><AiOutlineMail /></p></a>
-                <a href="/"><p className="text-2xl py-3 hover:text-gray"><AiFillGithub /></p></a>
-                <a href="/"><p className="text-2xl py-3 hover:text-gray"><FaLinkedinIn /></p></a>
+                <a href="https://github.com/miikaran" target="_blank"><p className="text-2xl py-3 hover:text-gray"><AiFillGithub /></p></a>
+                <a href="https://www.linkedin.com/in/miika-rantalaiho-0ab313220/" target="_blank"><p className="text-2xl py-3 hover:text-gray"><FaLinkedinIn /></p></a>
             </div> 
         </div>
     )

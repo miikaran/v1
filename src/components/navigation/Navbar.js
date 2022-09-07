@@ -9,7 +9,7 @@ export default function Navbar(){
     const [navbar, setNavbar] = useState(false);
 
     return(
-        <nav className="fixed w-full ">
+        <nav className="bg-dark2 fixed w-full">
         <div className="justify-between px-4 mx-auto lg:max-w-8xl lg:items-center lg:flex lg:px-14">
             <div>
                 <div className="flex items-center justify-between py-3 lg:py-8 lg:block">
@@ -110,9 +110,9 @@ export default function Navbar(){
                     </li>
                     
                     <li>
-                    <button className="text-dark text-xl flex rounded-sm bg-white py-1 px-4  hover:bg-opacity-80" href="#Contact">
+                    <a href="https://drive.google.com/file/d/1THJzMuktMm4OqmkZ4Fo-zTBzyPzqUNzP/view?usp=sharing" target="_blank" className="text-dark text-xl flex rounded-sm bg-white py-1 px-4  hover:bg-opacity-80">
                         RESUME <AiOutlineDownload className="mx-2 text-2xl" />
-                    </button>
+                    </a>
                     </li>         
 
                     </ul>
