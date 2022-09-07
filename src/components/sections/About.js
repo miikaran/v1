@@ -1,4 +1,4 @@
-import  Imgme  from '../img/IMG-20220625-WA0005 (2).jpg'
+import  Imgme  from '../img/Me2.jpg'
 import { DiReact } from 'react-icons/di'
 import { IoLogoNodejs } from 'react-icons/io'
 import { SiExpress, SiTailwindcss, SiJavascript, SiFirebase } from 'react-icons/si'

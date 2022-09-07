@@ -9,24 +9,21 @@ import Footer from '../components/navigation/Footer'
 import LoadingScreen from '../components/LoadingScreen'
 import { useState, useEffect } from 'react'
 
-
 export default function App(){
-    
 
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
         setTimeout(() => {
             setLoading(true)
-        }, 3000);
+        }, 2000);
     }, []);
 
 
     return(
 
-
         <div>
-            
+
             {loading ? (
 
             <div>

@@ -1,14 +1,11 @@
 import React from 'react';
 import { useState } from "react";
-import { HiOutlineLightBulb } from 'react-icons/hi'
 import { AiOutlineDownload } from 'react-icons/ai'
 
 
 export default function Navbar(){
 
     const [navbar, setNavbar] = useState(false);
-
-
 
     return(
         <nav className="fixed w-full">
@@ -87,13 +84,7 @@ export default function Navbar(){
                     <button className="text-dark text-xl flex rounded-sm bg-white py-1 px-4" href="#Contact">
                         RESUME <AiOutlineDownload className="mx-2 text-2xl" />
                     </button>
-                    </li> 
-
-                    <li>
-                    <button className="text-dark text-3xl bg-lightyellow p-1 rounded-full">
-                        <HiOutlineLightBulb />
-                    </button>
-                    </li>
+                    </li>         
 
                     </ul>
                 </div>

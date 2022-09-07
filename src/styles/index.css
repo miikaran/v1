@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  background-color: rgb(19, 19, 19);
 }
 
 .homehero{
@@ -60,7 +61,6 @@ body {
   visibility: visible;
   width: 100%;
 }
-
 
 
 
