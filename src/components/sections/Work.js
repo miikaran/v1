@@ -72,8 +72,8 @@ export default function Work(){
                             <br />
 
                             <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
-                                <a href="https://forbidden-mp4-downloader.herokuapp.com/" target="_blank" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
-                                <a href="https://github.com/miikaran/youtube-videoaudio-downloader" target="_blank" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
+                                <a href="https://forbidden-mp4-downloader.herokuapp.com/" target="_blank" rel="noreferrer" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
+                                <a href="https://github.com/miikaran/youtube-videoaudio-downloader" target="_blank" rel="noreferrer" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
                             </div>
 
                         </div>
@@ -88,7 +88,7 @@ export default function Work(){
                             </span>
                             
                             <p className="mx-5 mt-4 sm:mt-0 font-robotolight text-md text-white sm:text-xl">
-                            <a className="underline text-red">Halvatsivut.fi</a> is a one page static website for my freelance stuff. 
+                            <a href="https://halvatsivut.fi/" target="_blank" rel="noreferrer" className="underline text-red">Halvatsivut.fi</a> is a one page static website for my freelance stuff. 
                             At the site you can find information about me and the services i sell.
                             </p>
 
@@ -114,8 +114,8 @@ export default function Work(){
                             <br />
 
                             <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
-                                <a href="https://halvatsivut.fi/" target="_blank" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
-                                <a href="https://github.com/miikaran/freelance-website-template" target="_blank" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
+                                <a href="https://halvatsivut.fi/" target="_blank" rel="noreferrer" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
+                                <a href="https://github.com/miikaran/freelance-website-template" target="_blank" rel="noreferrer" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
                             </div>
 
                         </div>

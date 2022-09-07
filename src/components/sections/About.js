@@ -1,7 +1,7 @@
 import  Imgme  from '../img/Me2.jpg'
 import { DiReact } from 'react-icons/di'
 import { IoLogoNodejs } from 'react-icons/io'
-import { SiExpress, SiTailwindcss, SiJavascript, SiFirebase } from 'react-icons/si'
+import { SiExpress, SiTailwindcss, SiJavascript} from 'react-icons/si'
 import { useState } from 'react'
 
 
@@ -30,7 +30,7 @@ export default function About(){
             <div className="flex justify-center pb-14">
 
                 <div className="aboutimg mt-64 max-w-md">
-                    <img className="rounded-full border-8 border-r-yellow border-l-white border-b-white border-t-yellow" src={Imgme} alt="Image of a boy" />
+                    <img className="rounded-full border-8 border-r-yellow border-l-white border-b-white border-t-yellow" src={Imgme} alt="Boy sitting" />
                 </div>
                         
                 <div className="sm:mt-24 py-8 px-2 sm:px-14">

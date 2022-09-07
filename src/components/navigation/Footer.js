@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai'
-import { BsTwitter } from 'react-icons/bs'
 import { FaLinkedinIn } from 'react-icons/fa'
 
 export default function Footer(){
@@ -16,8 +15,8 @@ export default function Footer(){
                 </p> 
 
                 <div className="flex space-x-3 mx-4">
-                    <a href="https://github.com/miikaran" target="_blank" className="text-xl text-white hover:text-gray"><AiFillGithub /></a>
-                    <a href="https://www.linkedin.com/in/miika-rantalaiho-0ab313220/" target="_blank" className="text-xl text-white hover:text-gray"><FaLinkedinIn /></a>
+                    <a href="https://github.com/miikaran" target="_blank" rel="noreferrer"  className="text-xl text-white hover:text-gray"><AiFillGithub /></a>
+                    <a href="https://www.linkedin.com/in/miika-rantalaiho-0ab313220/" target="_blank" rel="noreferrer" className="text-xl text-white hover:text-gray"><FaLinkedinIn /></a>
                 </div>
 
             </div>
