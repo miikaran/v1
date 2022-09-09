@@ -1,5 +1,5 @@
-import forbiddenmp4 from '../img/Halvatsivut.png'
-import halvatsivut from '../img/ForbiddenMP4.png'
+import forbiddenmp4 from '../../assets/Halvatsivut.png'
+import halvatsivut from '../../assets/ForbiddenMP4.png'
 import { DiReact } from 'react-icons/di'
 import { IoLogoNodejs } from 'react-icons/io'
 import { SiExpress, SiTailwindcss, SiJavascript, SiFirebase, SiPhp } from 'react-icons/si'
