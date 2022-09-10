@@ -1,6 +1,7 @@
 import forbiddenmp4 from '../../assets/Halvatsivut.png'
 import halvatsivut from '../../assets/ForbiddenMP4.png'
-import { DiReact } from 'react-icons/di'
+import RuokapaikkaAPP from '../../assets/Ruokapaikka-äänestys.mp4'
+import { DiReact, DiMongodb } from 'react-icons/di'
 import { IoLogoNodejs } from 'react-icons/io'
 import { SiExpress, SiTailwindcss, SiJavascript, SiFirebase, SiPhp } from 'react-icons/si'
 import { GrHeroku } from 'react-icons/gr'
@@ -124,6 +125,54 @@ export default function Work(){
                             <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-r-8 border-b-8 border-t-8 border-gray border-opacity-20 halvatsivut" src={halvatsivut} alt="Freelance website" />           
                         </div>
                     </div> 
+
+
+                    <div className="block lg:flex lg:mt-24">
+
+                        <div className="py-12 lg:border-r-8 border-r-gray">
+                            <video src={RuokapaikkaAPP} controls className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-l-8 border-b-8 border-t-8 border-gray border-opacity-30 halvatsivut" alt="Ruokapaikka-äänestys" />     
+                        </div>
+
+                        <div className="bg-dark px-0 sm:px-14 py-9 max-w-4xl border-r-8 border-t-8 border-l-8 border-b-8 border-dark border-l-gray">
+                            <span className="text-4xl sm:text-5xl text-white mx-4">Ruokapaikka-äänestys
+                            <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
+                            </span>
+                            
+                            <p className="mx-5 mt-4 sm:mt-0 font-robotolight text-md text-white sm:text-xl">
+                            Ruokapaikka-äänestys is a web-app that allows people to vote between places to eat at.
+                            After everyone has voted and you check the results it displays a map with markups which are the
+                            real places in your area, like burger restaurants, markets, etc. <b>Check the demo video to understand better.</b>
+                            <br /> <br />
+                            I did it mostly to learn more about serverside stuff, so no high effort put into frontend. 
+                            </p>
+
+                            <br />
+
+                            <span className="text-2xl mx-4 text-white">TECH STACK</span>
+
+                            <ul className="bg-dark2 mx-4 font-robotolight sm:grid sm:grid-cols-2 py-4 mt-2 space-y-2">
+                                <li className="flex text-xl mt-2 text-white">
+                                <DiReact className="text-3xl text-sky mx-2" /> ReactJS
+                                </li>          
+                                <li className="flex text-xl text-white">
+                                <IoLogoNodejs className="text-3xl text-green mx-2" />NodeJS
+                                </li>
+                                <li className="flex text-xl text-white">
+                                <SiExpress className="text-3xl mx-2" /> ExpressJS
+                                </li>
+                                <li className="flex text-xl text-white">
+                                <DiMongodb className="text-3xl mx-2 text-green" /> MongoDB
+                                </li>
+                            </ul>
+
+                            <br />
+
+                            <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
+                                <a href="https://github.com/miikaran/ruokapaikka-aanestys" target="_blank" rel="noreferrer" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>  
         </div> 
