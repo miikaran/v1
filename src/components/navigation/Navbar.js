@@ -111,7 +111,7 @@ export default function Navbar(){
                     
                     <li>
                     <a href="https://drive.google.com/file/d/1KeegS8WUlgWdESErAFwGC40KKAcIECyY/view?usp=sharing" target="_blank" rel="noreferrer" className="text-dark text-xl flex rounded-sm bg-white py-1 px-4  hover:bg-opacity-80">
-                        RESUME <AiOutlineDownload className="mx-2 text-2xl" />
+                        MY CV <AiOutlineDownload className="mx-2 text-2xl" />
                     </a>
                     </li>         
 
