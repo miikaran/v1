@@ -1,9 +1,9 @@
 import forbiddenmp4 from '../../assets/Halvatsivut.png'
-import halvatsivut from '../../assets/ForbiddenMP4.png'
+import codingmelody from '../../assets/codingmelody.png'
 import RuokapaikkaAPP from '../../assets/Ruokapaikka-äänestys.mp4'
 import { DiReact, DiMongodb } from 'react-icons/di'
 import { IoLogoNodejs } from 'react-icons/io'
-import { SiExpress, SiTailwindcss, SiJavascript, SiFirebase, SiPhp } from 'react-icons/si'
+import { SiExpress, SiTailwindcss, SiJavascript, SiFirebase, SiVercel, SiPhp } from 'react-icons/si'
 import { GrHeroku } from 'react-icons/gr'
 import { AiFillGithub, AiFillHtml5 } from 'react-icons/ai'
 import { BiLinkExternal } from 'react-icons/bi'
@@ -19,7 +19,6 @@ export default function Work(){
                     MY WORK
                 </div>
 
-
                 <div className="mt-32">
 
                     <div className="py-4">
@@ -32,10 +31,51 @@ export default function Work(){
                     <div className="block lg:flex lg:mt-24">
 
                         <div className="py-12 lg:border-r-8 border-r-gray">
-                            <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-l-8 border-b-8 border-t-8 border-gray border-opacity-30 halvatsivut" src={forbiddenmp4} alt="Youtube Downloader Website" />           
+                            <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-l-8 border-b-8 border-t-8 border-gray border-opacity-30 halvatsivut" src={codingmelody} alt="Codingmelody website" />           
                         </div>
                         
                         <div className="bg-dark px-0 sm:px-14 py-9 max-w-4xl border-r-8 border-t-8 border-l-8 border-b-8 border-dark border-l-gray">
+                            <span className="text-4xl sm:text-5xl text-white mx-4">CodingMelody
+                            <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
+                            </span>
+                            
+                            <p className="mx-5 mt-4 sm:mt-0 font-robotolight text-md text-white sm:text-xl">
+                            CodingMelody is a web application which you can use to listen to your favourite music from YouTube without any ads interrupting it. 
+                            You can also create your own playlists & enjoy them free of charge. It's mobile compatible, so it works even if your screen is off, 
+                            or you're using other applications at the same time
+                            </p>
+
+                            <br />
+
+                            <span className="text-2xl mx-4 text-white">TECH STACK</span>
+
+                            <ul className="bg-dark2 mx-4 font-robotolight sm:grid sm:grid-cols-2 py-4 mt-2 space-y-2">
+                                <li className="flex text-xl mt-2 text-white">
+                                <DiReact className="text-3xl text-sky mx-2" /> ReactJS
+                                </li>          
+                                <li className="flex text-xl text-white">
+                                <SiTailwindcss className="text-3xl text-sky mx-2" />TailWindCSS
+                                </li>
+                                <li className="flex text-xl text-white">
+                                <SiFirebase className="text-3xl mx-2 text-yellow" /> Firebase
+                                </li>
+                                <li className="flex text-xl text-white">
+                                <SiVercel className="text-3xl mx-2" /> Vercel
+                                </li>
+                            </ul>
+
+                            <br />
+
+                            <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
+                                <a href="https://codingmelody.vercel.app/" target="_blank" rel="noreferrer" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
+                                <a href="https://github.com/miikaran/codingmelody" target="_blank" rel="noreferrer" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="block lg:flex mt-12">
+
+                        <div className="bg-dark px-0 sm:px-14 py-9 max-w-4xl border-b-8 border-t-8 border-r-8 border-dark border-r-gray">
                             <span className="text-4xl sm:text-5xl text-white mx-4">forbidden.<span className="text-yellow">MP4</span> 
                             <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
                             </span>
@@ -69,49 +109,6 @@ export default function Work(){
                                 <GrHeroku className="text-3xl mx-2 text-purple" /> Heroku
                                 </li>
                             </ul>
-
-                            <br />
-
-                            <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
-                                <a href="https://forbidden-mp4-downloader.herokuapp.com/" target="_blank" rel="noreferrer" className="bg-yellow px-8 text-xl py-3 flex">LIVE DEMO <BiLinkExternal className="mx-2  text-2xl" /></a>
-                                <a href="https://github.com/miikaran/youtube-videoaudio-downloader" target="_blank" rel="noreferrer" className="bg-lightyellow px-8 text-xl py-3 flex">GITHUB <AiFillGithub className="mx-2 text-2xl" /></a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div className="block lg:flex mt-12">
-
-                        <div className="bg-dark px-0 sm:px-14 py-9 max-w-4xl border-b-8 border-t-8 border-r-8 border-dark border-r-gray">
-                            <span className="text-4xl sm:text-5xl text-white mx-4">
-                            Halvatsivut.fi
-                            <hr className="w-20 border-2 border-white mt-6 mx-5 rounded-full abouthr"></hr>
-                            </span>
-                            
-                            <p className="mx-5 mt-4 sm:mt-0 font-robotolight text-md text-white sm:text-xl">
-                            <a href="https://halvatsivut.fi/" target="_blank" rel="noreferrer" className="underline text-red">Halvatsivut.fi</a> is a one page static website for my freelance stuff. 
-                            At the site you can find information about me and the services i sell.
-                            </p>
-
-                            <br />
-
-                            <span className="text-2xl mx-4 text-white">TECH STACK</span>
-
-                            <ul className="bg-dark2 mx-4 font-robotolight sm:grid sm:grid-cols-2 py-4 mt-2 space-y-4">
-                                <li className="flex text-xl mt-2 text-white">
-                                <AiFillHtml5 className="text-3xl text-red mx-2" /> HTML
-                                </li>          
-                                <li className="flex text-xl text-white">
-                                <SiTailwindcss className="text-3xl mx-2 text-sky" />TailWindCSS
-                                </li>
-                                <li className="flex text-xl text-white">
-                                <SiJavascript className="text-3xl mx-2 text-yellow" /> JavaScript ES6
-                                </li>
-                                <li className="flex text-xl text-white">
-                                <SiPhp className="text-3xl mx-2 text-gray" /> PHP
-                                </li>
-                            </ul>
-
                             <br />
 
                             <div className="mt-2 mx-4 block sm:flex space-y-2 sm:space-y-0 gap-4">
@@ -122,7 +119,7 @@ export default function Work(){
                         </div>
 
                         <div className="py-12 lg:border-l-8 border-l-gray">
-                            <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-r-8 border-b-8 border-t-8 border-gray border-opacity-20 halvatsivut" src={halvatsivut} alt="Freelance website" />           
+                            <img className="max-w-sm lg:max-w-md xl:max-w-2xl mx-20 lg:mx-4 border-r-8 border-b-8 border-t-8 border-gray border-opacity-30 halvatsivut" src={forbiddenmp4} alt="Youtube Downloader Website" />             
                         </div>
                     </div> 
 
