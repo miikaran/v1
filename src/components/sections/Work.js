@@ -3,9 +3,9 @@ import codingmelody from '../../assets/codingmelody.png'
 import RuokapaikkaAPP from '../../assets/Ruokapaikka-äänestys.mp4'
 import { DiReact, DiMongodb } from 'react-icons/di'
 import { IoLogoNodejs } from 'react-icons/io'
-import { SiExpress, SiTailwindcss, SiJavascript, SiFirebase, SiVercel, SiPhp } from 'react-icons/si'
+import { SiExpress, SiTailwindcss, SiFirebase, SiVercel} from 'react-icons/si'
 import { GrHeroku } from 'react-icons/gr'
-import { AiFillGithub, AiFillHtml5 } from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai'
 import { BiLinkExternal } from 'react-icons/bi'
 
 
