@@ -1,8 +1,6 @@
 <br>
 <div align="center">
-  <a href="https://miikarantalaiho.netlify.app/">
-    <img src="https://user-images.githubusercontent.com/88707539/188805769-84875fda-bd82-4019-a6f1-9e09215fb027.png" alt="Logo">    
-  </a>
+  <img src="https://user-images.githubusercontent.com/88707539/188805769-84875fda-bd82-4019-a6f1-9e09215fb027.png" alt="Logo">    
 </div>
 
 <br>
@@ -15,12 +13,6 @@
  
 </div>
 
-
-<div align=center>
-
-  # <a href="https://miikarantalaiho.netlify.app/">Live at Netlify</a>
-  
-</div>
 
 
 ## Portfolio v1.0
